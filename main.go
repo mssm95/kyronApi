@@ -10,7 +10,7 @@ import (
 )
 
 func init() {
-	orm.RegisterDataBase("default", "postgres", "postgres://postgres:nohoraluz@127.0.0.1:5433/hojas_de_vida?sslmode=disable&search_path=public")
+	orm.RegisterDataBase("default", "postgres", "postgres://crud_user:password@10.20.0.159:5432/udistrital_core_db?sslmode=disable&search_path=kyron")
 }
 
 func main() {
